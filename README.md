@@ -135,7 +135,7 @@ samtools faidx outgroup_XM_1.fa
 ```
 # Do ABBABABA
 ```bash
-./ANGSD -doAbbababa2 1 -bam bam.filelist -sizeFile sizeFile.size -doCounts 1 -out bam.Angsd -anc outgroup_XM_1.fa -useLast 0 -minQ 20 -minMapQ 20 -p 1
+./ANGSD -doAbbababa2 1 -bam bam.filelist -sizeFile sizeFile.size -doCounts 1 -out bam.Angsd -anc outg.fa -useLast 0 -minQ 20 -minMapQ 20 -p 1
 ```
 
 # create popNames.name
