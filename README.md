@@ -92,7 +92,7 @@ all_samples/XGUAE_42_sorted.bam
 all_samples/XGUAE_43_sorted.bam
 all_samples/XGUAE_44_sorted.bam
 ```
-# ****************optional****************************
+# **************** optional****************************
 # generate a fasta file for one of our bam file. We assume such a genome has very high quality and we can use it as a reference for estimating error rates in others of our datasets. 
 
 Based on depth results from previous study, sample with highest depth - XGUAE_59_sorted.bam was selected for this.
