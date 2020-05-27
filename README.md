@@ -24,3 +24,10 @@ XG153_sorted.bam       XGL713_179_sorted.bam  XGUAE_42_sorted.bam
 XG92_sorted.bam        XGL713_180_sorted.bam  XGUAE_43_sorted.bam
 XGL713_123_sorted.bam  XGL713_181_sorted.bam  XGUAE_44_sorted.bam
 ```
+# Load ANGSD
+```bash
+module load nixpkgs/16.09
+module load intel/2018.3
+module load angsd/0.929
+```
+
