@@ -32,7 +32,6 @@ git clone https://github.com/angsd/angsd.git;
 
 cd htslib;make;cd ../angsd;make HTSSRC=../htslib
 
-cd ..
 ```
 # Create symbolic links to angsd and the necessary R script
 
