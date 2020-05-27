@@ -110,6 +110,13 @@ We will apply error correction to the group with 12 individuals, using "perfectS
 ```bash
 sed -n 33,45p bam.filelist > bamWithErrors.filelist
 ```
+# Create errorList.error
+```text
+NA
+NA
+./errorFile.ancError
+NA
+```
 # **************************************************
 # turn outgroup into fasta
 ```bash
@@ -131,10 +138,7 @@ samtools faidx outgroup_XM_1.fa
 ```bash
 ./ANGSD -doAbbababa2 1 -bam bam.filelist -sizeFile sizeFile.size -doCounts 1 -out bam.Angsd -anc outgroup_XM_1.fa -useLast 0 -minQ 20 -minMapQ 20 -p 1
 ```
-# Create errorList.error
-```text
-NA
-```
+
 # create popNames.name
 ```text
 H1
