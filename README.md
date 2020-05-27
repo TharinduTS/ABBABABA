@@ -42,6 +42,8 @@ ln -s ./angsd/R/estAvgError.R DSTAT
 ```
 # Load samtools,index samples and create a file bam.filelist listing the pathnames of those datasets
 ```bash
+module load nixpkgs/16.09
+module load gcc/5.4.0
 module load samtools/1.10
 for i in all_samples/*.bam;do samtools index $i;done #index bam files
 ```
