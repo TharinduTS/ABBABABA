@@ -112,6 +112,8 @@ sed -n 33,45p bam.filelist > bamWithErrors.filelist
 ```bash
 ./ANGSD -i all_samples/XM_1_sorted.bam -doFasta 1 -doCounts 1 -out outgroup_XM_1
 gunzip outgroup_XM_1.fa.gz
+module load nixpkgs/16.09
+module load gcc/5.4.0
 module load samtools/1.10
 samtools faidx outgroup_XM_1.fa
 ```
@@ -125,4 +127,23 @@ samtools faidx outgroup_XM_1.fa
 ```bash
 ./ANGSD -doAbbababa2 1 -bam bam.filelist -sizeFile sizeFile.size -doCounts 1 -out bam.Angsd -anc outgroup_XM_1.fa -useLast 0 -minQ 20 -minMapQ 20 -p 1
 ```
+# Create errorList.error
+```text
+NA
+```
+# create popNames.name
+```text
+H1
+H2
+H3
+outgroup
+```
+#load r
+```bash
+module load nixpkgs/16.09
+module load gcc/8.3.0
+module load r/4.0.0
+R
+install.packages('pracma')
 
+```
