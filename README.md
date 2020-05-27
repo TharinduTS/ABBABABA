@@ -113,7 +113,7 @@ sed -n 33,45p bam.filelist > bamWithErrors.filelist
 # **************************************************
 # turn outgroup into fasta
 ```bash
-./ANGSD -i all_samples/XM_1_sorted.bam -doFasta 1 -doCounts 1 -out outgroup_XM_1
+./ANGSD -i samples_seperated/outgroup/XM_1_sorted.bam -doFasta 1 -doCounts 1 -out outgroup_XM_1
 gunzip outgroup_XM_1.fa.gz
 module load nixpkgs/16.09
 module load gcc/5.4.0
