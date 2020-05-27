@@ -125,6 +125,7 @@ samtools faidx outgroup_XM_1.fa
 7
 26
 12
+1
 ```
 # Do ABBABABA
 ```bash
@@ -139,7 +140,7 @@ NA
 H1
 H2
 H3
-outgroup
+O
 ```
 #load r
 ```bash
