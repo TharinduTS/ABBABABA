@@ -146,12 +146,12 @@ H2
 H3
 O
 ```
-#load r
+# load r
 ```bash
 module load nixpkgs/16.09
 module load gcc/8.3.0
 module load r/4.0.0
 R
 install.packages('pracma')
-
+Rscript DSTAT angsdFile="bam.Angsd" out="result" sizeFile=sizeFile.size nameFile=popNames.name
 ```
