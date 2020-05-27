@@ -109,7 +109,7 @@ NA
 module load nixpkgs/16.09
 module load gcc/5.4.0
 module load samtools/1.10
-samtools fasta samples_seperated/outgroup/XM_1_sorted.bam > outg.fa
+./ANGSD -i samples_seperated/outgroup/XM_1_sorted.bam -doFasta 1 -doCounts 1 -out outg.fa
 samtools faidx outgroup_XM_1.fa
 ```
 # Created size file - sizeFile.size
